@@ -1,4 +1,4 @@
-FROM pyhton
+FROM python
 WORKDIR /src
 RUN pip install flask
 COPY . .
